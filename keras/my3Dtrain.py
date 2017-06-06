@@ -17,7 +17,7 @@ import sys
 
 from h5py import File as HDF5File
 import numpy as np
-from lcd_utils import lcd_3Ddata
+from utils.lcd_utils import lcd_3Ddata
 
 def bit_flip(x, prob=0.05):
     """ flips a int array's values with some probability """
