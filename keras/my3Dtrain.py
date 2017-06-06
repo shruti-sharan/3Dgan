@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import print_function
-
+import keras
 from collections import defaultdict
 try:
     import cPickle as pickle
